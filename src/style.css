@@ -18,8 +18,24 @@ font-family: 'DM Sans', sans-serif;
 
 }
 
+body{
+    background-image: url(./background-hero.svg);
+    background-repeat:no-repeat;
+    background-position: top center;
+}
+
 main{
+    /* width: % !important; */
     font-family: 'DM Sans', sans-serif;
+}
+
+.z-index-1{
+    z-index: -1;
+}
+
+.img-hero{
+    width: 10em;
+    height: inherit;
 }
 
 h1{
