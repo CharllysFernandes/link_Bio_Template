@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 /* 
 font-family: 'DM Sans', sans-serif;
 */
-:root{
+:root {
     --color-neutral-800: #030B1A;
     --color-neutral-700: #4F5A6E;
     --color-neutral-600: #5C6779;
@@ -18,45 +19,45 @@ font-family: 'DM Sans', sans-serif;
 
 }
 
-body{
+body {
     background-image: url(./background-hero.svg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: top center;
 }
 
-main{
+main {
     /* width: % !important; */
     font-family: 'DM Sans', sans-serif;
 }
 
-.z-index-1{
+.z-index-1 {
     z-index: -1;
 }
 
-.img-hero{
+.img-hero {
     width: 10em;
     height: inherit;
 }
 
-h1{
+h1 {
     color: var(--color-neutral-800);
-    
+
     line-height: 37px;
 }
 
-h2{
+h2 {
     color: var(--color-neutral-600);
     line-height: 26px;
 }
 
-.btn-dark{
+.btn-dark {
     --bs-btn-color: var(--color-neutral-100);
     --bs-btn-bg: var(--color-neutral-800);
     --bs-btn-border-color: var(--color-neutral-800);
     --bs-btn-hover-color: var(--color-neutral-100);
     --bs-btn-hover-bg: var(--color-neutral-700);
     --bs-btn-hover-border-color: #373b3e;
-    --bs-btn-focus-shadow-rgb: 66,70,73;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #4d5154;
     --bs-btn-active-border-color: #373b3e;
@@ -65,13 +66,14 @@ h2{
     --bs-btn-disabled-bg: #212529;
     --bs-btn-disabled-border-color: #212529;
 }
+
 .btn-outline-secondary {
     --bs-btn-color: #6c757d;
     --bs-btn-border-color: var(--color-neutral-300);
     --bs-btn-hover-color: var(--color-neutral-800);
     --bs-btn-hover-bg: #6c757d;
     --bs-btn-hover-border-color: #6c757d;
-    --bs-btn-focus-shadow-rgb: 108,117,125;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
     --bs-btn-active-color: var(--color-neutral-800);
     --bs-btn-active-bg: #6c757d;
     --bs-btn-active-border-color: #6c757d;
@@ -81,12 +83,15 @@ h2{
     --bs-btn-disabled-border-color: #6c757d;
     --bs-gradient: none;
 }
-.btn{
+
+.btn {
     width: 100%;
 }
-.text-neutral{
+
+.text-neutral {
     color: var(--color-neutral-800);
 }
-a{
+
+a {
     text-decoration: none;
 }
